@@ -1,0 +1,67 @@
+total 16
+drwxrwxr-x 2 gary gary 4096 mar 12 16:24 backup
+drwxrwxr-x 2 gary gary 4096 mar 12 16:23 datos
+-rw-rw-r-- 1 gary gary    0 mar 12 16:25 miscomandos.txt
+drwxrwxr-x 2 gary gary 4096 mar 12 16:26 reportes
+drwxrwxr-x 2 gary gary 4096 mar 12 16:24 scripts
+ana
+juan
+pedro
+ana
+maria
+juan
+lucas
+info: login correcto ana
+error: contrasenia incorrecta juan
+info: login correcto maria
+warning: intento sospechoso de pedro
+error: ususario no encontrado carlos
+info: login correcto lucas
+error: contrasenia incorrecta ana
+[drwxrwxr-x]  .
+├── [drwxrwxr-x]  backup
+├── [drwxrwxr-x]  datos
+│   ├── [-rw-rw-r--]  accesos.log
+│   └── [-rw-rw-r--]  usuarios.txt
+├── [drwxrwxr-x]  reportes
+│   └── [-rw-rw-r--]  mis_comandos.txt
+└── [drwxrwxr-x]  scripts
+
+5 directories, 3 files
+accesos.log
+usuarios.txt
+[drwxrwxr-x]  .
+├── [-rw-rw-r--]  accesos.log
+└── [-rw-rw-r--]  usuarios.txt
+
+1 directory, 2 files
+./datos/usuarios.txt
+./reportes/mis_comandos.txt
+./datos/accesos.log
+2
+error: contrasenia incorrecta juan
+error: usuario no encontrado carlos
+error: contrasenia incorrecta ana
+3
+3
+ana
+ana
+juan
+juan
+lucas
+maria
+pedro
+7 usuarios.txt
+error: contrasenia incorrecta ana
+error: contrasenia incorrecta juan
+error: usuario no encontrado carlos
+7 ../datos/usuarios.txt
+3
+7 ../datos/usuarios.txt
+ana
+ana
+juan
+juan
+lucas
+maria
+pedro
