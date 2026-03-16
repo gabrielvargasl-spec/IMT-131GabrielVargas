@@ -1,0 +1,56 @@
+cd practica_linux4
+  846  mkfir datos
+  847  mkdir datos
+  848  mkdir reportes
+  849  mkdir codigo
+  850  cd reportes
+  851  nano mis_comandos4
+  852  cd ..
+  853  cd datos
+  854  echo "ana">> nombres.txt
+  855  echo "juan" >> nombres.txt
+  856  echo "pedro" >> nombres.txt
+  857  echo "ana" >> nombres.txt
+  858  echo "maria >> nombres.txt
+  859  echo "maria" >> nombres.txt
+  860  echo "error: memoria llena" >> log.txt
+  861  echo "info: proceso iniciado" >> log.txt
+  862  echo "error: archivo no econtrado" >> log.txt
+  863  echo "info: proceso terminado" >> log.txt
+  864  cd ..
+  865  clear
+  866  grep error log.txt
+  867  cd datos
+  868  grep error log.txt
+  869  history
+  870  clear
+  871  grep error log.txt >> ../reportes/mis_comandos4
+  872  grep info log.txt >> ../reportes/mis_comandos4
+  873  wc -l nombres.txt
+  874  wc nombres.txt -l
+  875  cat nombres.txt
+  876  echo "juan" >> nombres.txt
+  877  cat nombres.txt
+  878  ks
+  879  ls
+  880  cat log.txt 
+  881  echo "warning: espacio bajo" >>log.txt
+  882  ls
+  883  cat log.txt 
+  884  clear
+  885  wc nombres.txt -l 
+  886  wc nombres.txt -l >> ../reportes/mis_comandos4
+  887  grep ana nombres.txt
+  888  grep ana nombres.txt | wc -l
+  889  grep ana nombres.txt | wc -l >> ../reportes/mis_comandos4
+  890  sort nombres.xt
+  891  sort nombres.txt
+  892  sort nombres.txt >> ../reportes/mis_comandos4
+  893  cd ..
+  894  find -type f -name "*.txt"
+  895  find -type f -name "*.txt" >> ./reportes/mis_comandos4
+  896  find -type f -name "*.txt" | wc -l
+  897  find -type f -name "*.txt" | wc -l >> ./reportes/mis_comandos4
+  898  cd reportes
+  899  cat mis_comandos4 
+  900  history
